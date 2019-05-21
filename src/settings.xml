@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <uploadSettings>
+        <usePreload>true</usePreload>
+        <thumbnails>
+            <cms>thumb.png</cms>
+            <preview>thumb.png</preview>
+        </thumbnails>
+		<dynamicItems>
+			<Array>
+				<Object>
+					<ID>eventName</ID>
+					<DataType>string</DataType>
+					<Value></Value>
+					<DisplayName>Event name</DisplayName>
+				</Object>
+				<Object>
+					<ID>eventType</ID>
+					<DataType>list</DataType>
+					<Sources>
+						<Value>Start</Value>
+						<Value>StartLoop</Value>
+						<Value>StopLoop</Value>
+					</Sources>
+					<Value>Start</Value>
+					<DisplayName>Event type</DisplayName>
+				</Object>
+				<Object>
+					<ID>bgColor</ID>
+					<DataType>color</DataType>
+					<Value>0x000000</Value>
+					<DisplayName>Background color</DisplayName>
+				</Object>
+				<Object>
+					<ID>quitAfter</ID>
+					<DataType>boolean</DataType>
+					<Value>true</Value>
+					<DisplayName>Quit afterwards</DisplayName>
+				</Object>
+			</Array>
+		</dynamicItems>
+    </uploadSettings>
+</settings>
